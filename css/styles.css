@@ -539,7 +539,8 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #ffffff;
-  margin-bottom: 16px;
+  text-align: left;
+  /* margin-bottom: 16px; */
 }
 
 .footer-list-link:hover,
@@ -564,7 +565,7 @@ body {
 .footer-list {
   display: flex;
   gap: 16px;
-  /* margin-top: 16px; */
+  margin-top: 16px;
 }
 
 /* -------------- FOOTER----------------*/
