@@ -444,6 +444,10 @@ body {
   background-color: var(--accent-color);
 }
 
+.portfolio-item-img {
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-item-img:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -532,8 +536,8 @@ body {
 }
 
 .footer-title {
-  width: 96px;
-  height: 24px;
+  /* width: 96px;
+  height: 24px; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
